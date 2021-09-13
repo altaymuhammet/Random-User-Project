@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Random User Project</title>
+     <link rel="shortcut icon" href="images/fav-icon.png" src="images/x-icon">  
+
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+     
+     <div class="container-fluid mb-2">
+          <div class="row py-5">
+               <div class="col-12  d-flex justify-content-center align-items-center">
+                    <h1 class="myHeader">Contact Book</h1>
+               </div>
+          </div>
+          <div class="row ">
+               <div class="col-12 col-lg-2 py-4 ps-4 me-4" style="border-right: 4px solid seagreen;">
+                    <div class="row mb-2">
+                         <h2>Filter</h2>
+                    </div>
+                    <div class="row d-flex flex-row flex-lg-column justify-content-start align-items-start ">
+
+                        <select class="form-select" id="mySelect" aria-label="Default select example" style="width: 90%;">
+                              <option selected id="selected">Select Menu</option>
+                              <option value="male" id="male">Male</option>
+                              <option value="female" id="female">Female</option>
+                              <option value="younger30" id="younger30">Age < 30</option>
+                              <option value="older30" id="older30">Age >= 30</option>
+                       </select>
+
+                    </div>
+                    <button class="btn btn-success w-75 mt-4" id="getButton">Get users</button>
+                    <button class="btn btn-danger w-75 mt-4" id="deleteButton">Delete All</button>
+               </div>
+               <div class="col-lg-9 ps-5">
+                    <div class="row" id="newUserContainer"></div>
+               </div>
+          </div>
+     </div>
+
+
+
+
+
+
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery-3.6.0.min.js"></script>
+     <script src="js/ui.js"></script>
+     <script src="js/users.js"></script>
+     <script src="js/app.js"></script>
+</body>
+</html>

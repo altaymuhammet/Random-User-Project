@@ -1,0 +1,28 @@
+.myHeader {
+     font-weight: bold;
+     font-size: 3.5rem;
+     color: seagreen;
+     text-shadow: 5px 5px 5px #bbb;
+     text-decoration: underline;
+}
+
+.card{
+     box-shadow: 0px 0px 8px seagreen;
+     border: 1px solid seagreen !important;
+}
+.card:hover {
+     box-shadow: 0px 0px 20px slategray;
+}
+
+.card-header {
+    height: auto;
+    border-bottom: 2px solid seagreen !important;
+}
+
+.card-footer {
+     border-top: 2px solid seagreen !important;
+}
+
+.card-body {
+     height: 300px;
+}
